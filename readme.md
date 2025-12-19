@@ -1,4 +1,4 @@
-Clean: Delete DSEgenLib/build.
+Clean: Delete tdsEngLib/build.
 
 Configure:
 
@@ -12,4 +12,4 @@ Build:
 Bash
 
 cmake --build . --config Release
-Result: You should find both DSEgenLib.dll and tdsEngLib.dll (copied automatically) in DSEgenLib/build/bin/Release/
+cmake --build . --config Debug
